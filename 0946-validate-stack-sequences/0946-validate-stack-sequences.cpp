@@ -13,15 +13,7 @@ public:
           }  
         
         
-        while(j<popped.size()){
-            if(popped[j]==st.top()){
-                st.pop();
-                j++;
-            }
-            else{
-                return false;;
-            }
-        }
-    return true;
+      
+    return st.size()==0;
     }
 };
